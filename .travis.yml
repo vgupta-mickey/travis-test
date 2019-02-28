@@ -1,0 +1,16 @@
+language: go
+
+go:
+- '1.10'
+
+
+script:
+- go build test.go
+
+deploy:
+  provider: releases
+  file: test 
+  skip_cleanup: true
+  on:
+    branch: master
+
