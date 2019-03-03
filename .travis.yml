@@ -1,16 +1,13 @@
 language: go
-
 go:
 - '1.10'
-
-
 script:
 - go build test.go
-
 deploy:
   provider: releases
-  file: test 
+  file: test
   skip_cleanup: true
   on:
-    branch: master
-
+    tag: true
+  api-key:
+    secure: fDYJoQiURoPrJ1PA+af/40B11+/JQ4lK3FAyjiwadm7lMzHuDD8iowjttTBSciMMjI02M+Yu4br0uiVxiyMpOHM+tBfWM+bhD7r/BjiT/aEb/Hkxfz+5clKeOOahVXmDd4bMuzuy4iLMYdbgRvHpA6JovTOnY3jzn5TpgbRiV7iZRLHm3W7lSZJfOPS/SfBM1vrm3Ux2ggg0GAt65bxd7aTmT0ZoT0e7M/hZcvU714iEztQNbPBy1j+tG9L/vfZx5Y2b1lIyHYv4NqQUU0VTYKfUs/1YPTef8h4SLhDuk9hinmzTbdjDGul4rvLqjKluwytMmhU1gHd+M5DX51nDd1g8gfRuWoMVuQcrOHrnFMuvfjbFzEiXxCFjtfKVJ6sYg9HgIzOzjPm324JfdkCQLYq8QOE0awjBoXwSdaFsCO7IwcFoVDvkbzXcm6zgiQVQyX/Iddmm8QBBA/TrYylkMJX/6ajPASLpurc/dhsqV44OYCW+UQUHWME1lA3n29pVoE262hq6sM3dYNl1OZGmxasm0QtV9GVXEcGBLd5xZCt/XvEmC8gN+HfebIDDvKs7lpeEyzXG3bK98hasn44UWbSwsMYam4b4Nv0L6axCuqKKVQm1ANMD/+Hiw8EYXDUvHPXBBn9n0qXuMmo/b11CzNfjTebRTY8wz5S5pwfeV8A=
