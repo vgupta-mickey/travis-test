@@ -8,6 +8,7 @@ func main() {
    fmt.Println("hellovinod3")
    fmt.Println("hellovinod4")
    fmt.Println("hellovinod5")
+   fmt.Println("hellovinod6")
 
 }
 
