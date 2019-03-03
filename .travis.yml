@@ -9,6 +9,7 @@ deploy:
   skip_cleanup: true
   on:
     branch: master 
-    tags: true
+    draft: true
+    overite: true
   api-key:
     secure: VJikqRKn/YwkSvzqLB6l2AH65l9PmYkb9SygJfrob3whEE8gHK6y/MUqfnM87LEJ2fcnonsDSaZY4U76c3qGAitxQYAr4A39vvTDc1153CMHCnuOyj99NTKRE38izi54QmwPRaieIMegbDB512Jv+aySiTz/H09ShFjH9t9QH5cHEO7fGd6fDe+RBI74uOo/ORIuwXu5o6sUAdSeLILCYdf+S/EtGGVMK3R0Um2S3Z9CIwFBCNBADWIr/a9uDlVXgWi4OkJehNH0BX0elwJhVayBJ3Cu/0uo9sp4K7kOjbtm2SuggF2hYS+PvT2PUZ5eedT0xwyyigjHjTJ72/dmqVBRjJMLJrdqkuYe7Gl2vWdFafUQClN2tm9W77eg2L8leF83bCTdQH0t/rJrCydZPz5odXaXryxgTmcehzvDTWjm8bZkvStf9tgJDepnB8E6M3lN6BIIUzELI0qG4RtdRFNm3lbOT4Z0d5nkj3pcx7Ifh3KpMfCwc/Qb00P5HiW8N+aeqNij90Y3tOdAZaPYFHhc+rSwr0D6FSf+OnDX8YPB7i4SSkIL99uMHaKe1QPpGls57wA8EfVu5QtGDWqkl0kvxWKJk1PFX52GzVQ+iOnp/GSZ1aSZnDPCDLBdUssVx5zHTlGzf7OM1v7xRLVZiiVkH02qdQmUjZ8+J2O/Feg=
